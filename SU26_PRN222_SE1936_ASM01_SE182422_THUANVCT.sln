@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sealHkthon.Entities.ThuanVCT", "sealHkthon.Entities.ThuanVCT\sealHkthon.Entities.ThuanVCT.csproj", "{26A8391D-2168-4E53-BA3A-4B77252345DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sealHkthon.Repositories.ThuanVCT", "sealHkthon.Repositories.ThuanVCT\sealHkthon.Repositories.ThuanVCT.csproj", "{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sealHkthon.Services.ThuanVCT", "sealHkthon.Services.ThuanVCT\sealHkthon.Services.ThuanVCT.csproj", "{5884E57A-02B5-47F9-92DB-9A78A517D484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26A8391D-2168-4E53-BA3A-4B77252345DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A8391D-2168-4E53-BA3A-4B77252345DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A8391D-2168-4E53-BA3A-4B77252345DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A8391D-2168-4E53-BA3A-4B77252345DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5884E57A-02B5-47F9-92DB-9A78A517D484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5884E57A-02B5-47F9-92DB-9A78A517D484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5884E57A-02B5-47F9-92DB-9A78A517D484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5884E57A-02B5-47F9-92DB-9A78A517D484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

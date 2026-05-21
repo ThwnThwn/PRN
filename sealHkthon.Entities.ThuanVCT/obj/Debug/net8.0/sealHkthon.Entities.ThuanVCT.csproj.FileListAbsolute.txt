@@ -1,0 +1,11 @@
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\bin\Debug\net8.0\sealHkthon.Entities.ThuanVCT.deps.json
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\bin\Debug\net8.0\sealHkthon.Entities.ThuanVCT.dll
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\bin\Debug\net8.0\sealHkthon.Entities.ThuanVCT.pdb
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\obj\Debug\net8.0\sealHkthon.Entities.ThuanVCT.GeneratedMSBuildEditorConfig.editorconfig
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\obj\Debug\net8.0\sealHkthon.Entities.ThuanVCT.AssemblyInfoInputs.cache
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\obj\Debug\net8.0\sealHkthon.Entities.ThuanVCT.AssemblyInfo.cs
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\obj\Debug\net8.0\sealHkthon.Entities.ThuanVCT.csproj.CoreCompileInputs.cache
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\obj\Debug\net8.0\sealHkthon.Entities.ThuanVCT.dll
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\obj\Debug\net8.0\refint\sealHkthon.Entities.ThuanVCT.dll
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\obj\Debug\net8.0\sealHkthon.Entities.ThuanVCT.pdb
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Entities.ThuanVCT\obj\Debug\net8.0\ref\sealHkthon.Entities.ThuanVCT.dll

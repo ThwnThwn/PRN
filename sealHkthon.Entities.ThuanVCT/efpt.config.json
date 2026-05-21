@@ -1,0 +1,94 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "PRN222_HACKATHONContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "IrregularWords": null,
+   "MinimumProductVersion": "2.6.1465",
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PluralRules": null,
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "sealHkthon.Entities.ThuanVCT",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "SingularRules": null,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[CategoriesHungDT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventsThuanVCT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[judge_scores_KhanhLQ]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PrizeCategoriesSonNPX]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PrizesSonNPX]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RoundsThuanVCT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[submissions_KhanhLQ]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[System.UserAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[team_members_Thangvlq]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[teams_Thangvlq]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TeamsHungDT]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false,
+   "UseTypedTvpParameters": true
+}

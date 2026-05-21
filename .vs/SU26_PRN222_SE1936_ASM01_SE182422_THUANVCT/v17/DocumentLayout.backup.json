@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}|sealHkthon.Repositories.ThuanVCT\\sealHkthon.Repositories.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.repositories.thuanvct\\eventsthuanvctrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}|sealHkthon.Repositories.ThuanVCT\\sealHkthon.Repositories.ThuanVCT.csproj|solutionrelative:sealhkthon.repositories.thuanvct\\eventsthuanvctrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.entities.thuanvct\\models\\eventsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|solutionrelative:sealhkthon.entities.thuanvct\\models\\eventsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.entities.thuanvct\\models\\roundsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|solutionrelative:sealhkthon.entities.thuanvct\\models\\roundsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}|sealHkthon.Repositories.ThuanVCT\\sealHkthon.Repositories.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.repositories.thuanvct\\roundsthuanvctrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}|sealHkthon.Repositories.ThuanVCT\\sealHkthon.Repositories.ThuanVCT.csproj|solutionrelative:sealhkthon.repositories.thuanvct\\roundsthuanvctrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}|sealHkthon.Repositories.ThuanVCT\\sealHkthon.Repositories.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.repositories.thuanvct\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE828DF9-91C9-4FD4-BC2B-6CF774D904C5}|sealHkthon.Repositories.ThuanVCT\\sealHkthon.Repositories.ThuanVCT.csproj|solutionrelative:sealhkthon.repositories.thuanvct\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1858,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoundsThuanVct.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Entities.ThuanVCT\\Models\\RoundsThuanVct.cs",
+              "RelativeDocumentMoniker": "sealHkthon.Entities.ThuanVCT\\Models\\RoundsThuanVct.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Entities.ThuanVCT\\Models\\RoundsThuanVct.cs",
+              "RelativeToolTip": "sealHkthon.Entities.ThuanVCT\\Models\\RoundsThuanVct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T01:59:26.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventsThuanVct.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Entities.ThuanVCT\\Models\\EventsThuanVct.cs",
+              "RelativeDocumentMoniker": "sealHkthon.Entities.ThuanVCT\\Models\\EventsThuanVct.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Entities.ThuanVCT\\Models\\EventsThuanVct.cs",
+              "RelativeToolTip": "sealHkthon.Entities.ThuanVCT\\Models\\EventsThuanVct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T01:56:36.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsThuanVctRepository.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Repositories.ThuanVCT\\EventsThuanVctRepository.cs",
+              "RelativeDocumentMoniker": "sealHkthon.Repositories.ThuanVCT\\EventsThuanVctRepository.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Repositories.ThuanVCT\\EventsThuanVctRepository.cs",
+              "RelativeToolTip": "sealHkthon.Repositories.ThuanVCT\\EventsThuanVctRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T01:50:13.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoundsThuanVctRepository.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Repositories.ThuanVCT\\RoundsThuanVctRepository.cs",
+              "RelativeDocumentMoniker": "sealHkthon.Repositories.ThuanVCT\\RoundsThuanVctRepository.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Repositories.ThuanVCT\\RoundsThuanVctRepository.cs",
+              "RelativeToolTip": "sealHkthon.Repositories.ThuanVCT\\RoundsThuanVctRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T01:42:48.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Repositories.ThuanVCT\\Base\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "sealHkthon.Repositories.ThuanVCT\\Base\\GenericRepository.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Repositories.ThuanVCT\\Base\\GenericRepository.cs",
+              "RelativeToolTip": "sealHkthon.Repositories.ThuanVCT\\Base\\GenericRepository.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T02:05:14.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1403,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1403,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 865,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
