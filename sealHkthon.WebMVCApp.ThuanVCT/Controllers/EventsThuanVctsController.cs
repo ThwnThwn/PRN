@@ -1,29 +1,35 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.SignalR;
 using sealHkthon.Entities.ThuanVCT.Models;
 using sealHkthon.Repositories.ThuanVCT.DBContext;
 using sealHkthon.Services.ThuanVCT;
+using sealHkthon.WebMVCApp.ThuanVCT.Hubs;
 
 namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
 {
+    [Authorize]
     public class EventsThuanVctsController : Controller
     {
         //private readonly PRN222_HACKATHONContext _context;
         private readonly IEventsThuanVctService _eventService;
         private readonly IRoundsThuanVctService _roundService;
+        private readonly IHubContext<EventHub> _hubContext;
 
-        public EventsThuanVctsController(IEventsThuanVctService eventService, IRoundsThuanVctService roundService)
+        public EventsThuanVctsController(IEventsThuanVctService eventService, IRoundsThuanVctService roundService, IHubContext<EventHub> hubContext)
         {
             _eventService = eventService;
             _roundService = roundService;
+            _hubContext = hubContext;
         }
-
         // GET: EventsThuanVcts
+        [Authorize(Roles = "1,2")]
         public async Task<IActionResult> Index()
         {
             var events = await _eventService.GetAllAsync();
@@ -31,6 +37,7 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
         }
 
         // GET: EventsThuanVcts/Details/5
+        [Authorize(Roles = "1,2")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -52,6 +59,7 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
         }
 
         // GET: EventsThuanVcts/Create
+        [Authorize(Roles = "1,2")]
         public IActionResult Create()
         {
             ViewData["RoundThuanVctid"] = new SelectList(_roundService.GetAllAsync().Result, "RoundThuanVctid", "RoundName");
@@ -69,6 +77,7 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "1,2")]
         public async Task<IActionResult> Create(
         //[Bind("EventThuanVctid,EventName,Description,Status,PublishDate,IsActive")]
         EventsThuanVct eventsThuanVct)
@@ -79,6 +88,7 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
                 //await _context.SaveChangesAsync();
                 //return RedirectToAction(nameof(Index));
                 await _eventService.CreateAsync(eventsThuanVct);
+                await _hubContext.Clients.All.SendAsync("ReceiveEventUpdate");
                 return RedirectToAction(nameof(Index));
             }
             //ViewData["RoundThuanVctid"] = new SelectList(_roundService.GetAllAsync().Result, "RoundThuanVctid", "RoundName", eventsThuanVct.RoundsThuanVcts.FirstOrDefault()?.RoundThuanVctid);
@@ -103,7 +113,8 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
             return View(eventsThuanVct);
         }
 
-        // GET: EventsThuanVcts/Edit/5
+        // GET: EventsThuanVcts/Edit/
+        [Authorize(Roles = "1,2")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -129,6 +140,7 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "1,2")]
         public async Task<IActionResult> Edit(
         //int id, [Bind("EventThuanVctid,EventName,Description,Status,PublishDate,IsActive")] 
         EventsThuanVct eventsThuanVct)
@@ -146,6 +158,7 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
                     //_context.Update(eventsThuanVct);
                     //await _context.SaveChangesAsync();
                     await _eventService.UpdateAsync(eventsThuanVct);
+                    await _hubContext.Clients.All.SendAsync("ReceiveEventUpdate");
                 }
                 //catch (DbUpdateConcurrencyException)
                 catch (Exception ex)
@@ -170,6 +183,7 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
         }
 
         // GET: EventsThuanVcts/Delete/5
+        [Authorize(Roles = "1")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -189,8 +203,10 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
         }
 
         // POST: EventsThuanVcts/Delete/5
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "1")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             //var eventsThuanVct = await _context.EventsThuanVcts.FindAsync(id);
@@ -199,6 +215,7 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
             {
                 //_context.EventsThuanVcts.Remove(eventsThuanVct);
                 await _eventService.DeleteAsync(id);
+                await _hubContext.Clients.All.SendAsync("ReceiveEventUpdate");
             }
 
             //await _context.SaveChangesAsync();

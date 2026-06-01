@@ -1,5 +1,12 @@
+wwwroot\client-side-pagination.zip
+wwwroot\client-side-pagination\index.html
+wwwroot\client-side-pagination\LICENSE
+wwwroot\client-side-pagination\README.md
+wwwroot\client-side-pagination\table-pagination.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\signalr\dist\browser\signalr.js
+wwwroot\js\signalr\dist\browser\signalr.min.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -58,3 +65,4 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\table-pagination.js

@@ -9,6 +9,7 @@ C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Repositories.Thu
 C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Repositories.ThuanVCT\obj\Debug\net8.0\sealHkthon.Repositories.ThuanVCT.AssemblyInfoInputs.cache
 C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Repositories.ThuanVCT\obj\Debug\net8.0\sealHkthon.Repositories.ThuanVCT.AssemblyInfo.cs
 C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Repositories.ThuanVCT\obj\Debug\net8.0\sealHkthon.Repositories.ThuanVCT.csproj.CoreCompileInputs.cache
+C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Repositories.ThuanVCT\obj\Debug\net8.0\sealHkthon.Repositories.ThuanVCT.sourcelink.json
 C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Repositories.ThuanVCT\obj\Debug\net8.0\sealHkth.97C4B3D8.Up2Date
 C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Repositories.ThuanVCT\obj\Debug\net8.0\sealHkthon.Repositories.ThuanVCT.dll
 C:\PRN222\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\sealHkthon.Repositories.ThuanVCT\obj\Debug\net8.0\refint\sealHkthon.Repositories.ThuanVCT.dll

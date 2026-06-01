@@ -1,12 +1,26 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using sealHkthon.Services.ThuanVCT;
+using sealHkthon.WebMVCApp.ThuanVCT.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR();
 
 builder.Services.AddScoped<IEventsThuanVctService, EventsThuanVctSerrvice>();
 builder.Services.AddScoped<IRoundsThuanVctService, RoundsThuanVctService>();
+builder.Services.AddScoped<ISystemUserAccountService, SystemUserAccountService>();
+
+
+builder.Services.AddAuthentication()
+    .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
+    {
+        options.LoginPath = new PathString("/Account/Login");
+        options.AccessDeniedPath = new PathString("/Account/Forbidden");
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+
+    });
 
 var app = builder.Build();
 
@@ -23,6 +37,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
@@ -41,5 +56,7 @@ using (var context = new sealHkthon.Repositories.ThuanVCT.DBContext.PRN222_HACKA
         Console.WriteLine($"Database seeding failed: {ex.Message}");
     }
 }
+
+app.MapHub<EventHub>("/eventHub");
 
 app.Run();

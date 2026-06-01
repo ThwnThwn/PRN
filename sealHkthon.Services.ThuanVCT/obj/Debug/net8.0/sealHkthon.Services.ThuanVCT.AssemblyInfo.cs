@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sealHkthon.Services.ThuanVCT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5173d4e7a97212a191661735c816eba71ada6862")]
 [assembly: System.Reflection.AssemblyProductAttribute("sealHkthon.Services.ThuanVCT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sealHkthon.Services.ThuanVCT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

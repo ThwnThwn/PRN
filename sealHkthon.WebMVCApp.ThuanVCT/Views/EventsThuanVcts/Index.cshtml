@@ -19,7 +19,7 @@
 
 <div class="clean-table-container">
     <div class="table-responsive">
-        <table class="table table-clean table-hover mb-0">
+        <table id="myTable" class="table table-clean table-hover mb-0">
             <thead>
                 <tr>
                     <th style="width: 25%;">Event Name</th>
@@ -30,7 +30,7 @@
                     <th class="text-end">Actions</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="EventThuanVctid">
                 @if (!Model.Any())
                 {
                     <tr>
@@ -41,7 +41,7 @@
                     </tr>
                 }
                 @foreach (var item in Model) {
-                <tr>
+                <tr id="@item.EventThuanVctid">
                     <td class="fw-medium text-dark align-middle">
                         @item.EventName
                     </td>
@@ -92,3 +92,54 @@
         </table>
     </div>
 </div>
+@section Scripts {
+    <script src="~/client-side-pagination/table-pagination.js"></script>
+    <script>
+        $(function() {
+            $('#myTable').createTablePagination({
+                rowPerPage: 3,
+                paginationColor: '#6f7ad7',
+                fontColor: '#555555',
+                // paginationStyle: 'borderless', or 'bordered'
+            });
+        });
+    </script>
+
+    @* <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.10/signalr.min.js"></script> *@
+    @* <script> *@
+    @*     const connection = new signalR.HubConnectionBuilder() *@
+    @*         .withUrl("/eventHub") *@
+    @*         .build(); *@
+
+    @*     connection.on("ReceiveEventUpdate", function () { *@
+    @*         // Reload the page when an event is created/edited/deleted *@
+    @*         window.location.reload(); *@
+    @*     }); *@
+
+    @*     connection.start().catch(function (err) { *@
+    @*         return console.error(err.toString()); *@
+    @*     }); *@
+    @* </script> *@
+
+    <script src="~/js/signalr/dist/browser/signalr.min.js"></script>
+    <script>
+        // "use strict";
+
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/eventHub")
+            .build();
+
+        connection.start().catch(err => console.error(err.toString()));
+
+        connection.on("Reciver_EventDeleted", function (EventThuanVctid) {
+            //alert($(`#${TermDepositSlipId}`).value);
+            $('#EventThuanVctid').find(`tr[id='${EventThuanVctid}']`).remove();
+        });
+
+        // Reload page when Create or Edit happens on another tab
+        connection.on("ReceiveEventUpdate", function () {
+            window.location.reload();
+        });
+    </script>
+}

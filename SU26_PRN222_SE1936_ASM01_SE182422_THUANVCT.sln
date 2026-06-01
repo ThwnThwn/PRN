@@ -1,11 +1,7 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-<<<<<<< HEAD
-VisualStudioVersion = 17.12.35527.113
-=======
 VisualStudioVersion = 17.12.35527.113 d17.12
->>>>>>> bacd2638fd46c168f76c8a3b45337692d23665ca
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sealHkthon.Entities.ThuanVCT", "sealHkthon.Entities.ThuanVCT\sealHkthon.Entities.ThuanVCT.csproj", "{26A8391D-2168-4E53-BA3A-4B77252345DB}"
 EndProject
@@ -13,11 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sealHkthon.Repositories.Thu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sealHkthon.Services.ThuanVCT", "sealHkthon.Services.ThuanVCT\sealHkthon.Services.ThuanVCT.csproj", "{5884E57A-02B5-47F9-92DB-9A78A517D484}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sealHkthon.WebMVCApp.ThuanVCT", "sealHkthon.WebMVCApp.ThuanVCT\sealHkthon.WebMVCApp.ThuanVCT.csproj", "{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}"
 EndProject
-=======
->>>>>>> bacd2638fd46c168f76c8a3b45337692d23665ca
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,13 +29,10 @@ Global
 		{5884E57A-02B5-47F9-92DB-9A78A517D484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5884E57A-02B5-47F9-92DB-9A78A517D484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5884E57A-02B5-47F9-92DB-9A78A517D484}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> bacd2638fd46c168f76c8a3b45337692d23665ca
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
