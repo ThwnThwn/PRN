@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sealHkthon.Repositories.ThuanVCT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5173d4e7a97212a191661735c816eba71ada6862")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0681e4b89b1029b760a7a711e94c530aa4a7a1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("sealHkthon.Repositories.ThuanVCT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sealHkthon.Repositories.ThuanVCT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

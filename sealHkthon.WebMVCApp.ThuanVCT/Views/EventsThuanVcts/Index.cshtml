@@ -132,9 +132,41 @@
 
         connection.start().catch(err => console.error(err.toString()));
 
+
+        connection.on("Reciver_EventCreated", function (item) {
+
+            var trEvent = `
+                    <tr class="bg-success text-danger fw-bold">
+                    <td>${item.eventName}</td>
+                    <td>${item.description}</td>
+                    <td>${item.status}</td>
+                    <td>${item.publishDate}</td>
+                    <td>${item.isActive}</td>
+                </tr>
+            `;
+
+            $('#EventThuanVctid').prepend(trEvent);
+        });
+
         connection.on("Reciver_EventDeleted", function (EventThuanVctid) {
-            //alert($(`#${TermDepositSlipId}`).value);
             $('#EventThuanVctid').find(`tr[id='${EventThuanVctid}']`).remove();
+        });
+
+        connection.on("Reciver_EventEdited", function (item) {
+            var row = $(`#EventThuanVctid tr[id='${item.eventThuanVctid}']`);
+            if (row.length) {
+                // Cập nhật nội dung các ô
+                row.find('td:eq(0)').text(item.eventName);
+                row.find('td:eq(1)').find('div').text(item.description);
+                var dateText = item.publishDate
+                    ? new Date(item.publishDate).toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' })
+                    : 'N/A';
+                row.find('td:eq(3)').text(dateText);
+
+                // Tô vàng toàn bộ row
+                row.css('transition', 'background-color 0.3s ease');
+                row.css('background-color', '#fff3cd');
+            }
         });
 
         // Reload page when Create or Edit happens on another tab
