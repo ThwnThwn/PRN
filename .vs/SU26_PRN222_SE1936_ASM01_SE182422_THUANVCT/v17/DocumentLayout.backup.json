@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5884E57A-02B5-47F9-92DB-9A78A517D484}|sealHkthon.Services.ThuanVCT\\sealHkthon.Services.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.services.thuanvct\\eventsthuanvctserrvice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5884E57A-02B5-47F9-92DB-9A78A517D484}|sealHkthon.Services.ThuanVCT\\sealHkthon.Services.ThuanVCT.csproj|solutionrelative:sealhkthon.services.thuanvct\\eventsthuanvctserrvice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\controllers\\eventsthuanvctscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\controllers\\eventsthuanvctscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.entities.thuanvct\\models\\roundsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|solutionrelative:sealhkthon.entities.thuanvct\\models\\roundsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\hubs\\eventhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\hubs\\eventhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.entities.thuanvct\\models\\eventsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|solutionrelative:sealhkthon.entities.thuanvct\\models\\eventsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.entities.thuanvct\\models\\eventsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26A8391D-2168-4E53-BA3A-4B77252345DB}|sealHkthon.Entities.ThuanVCT\\sealHkthon.Entities.ThuanVCT.csproj|solutionrelative:sealhkthon.entities.thuanvct\\models\\eventsthuanvct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\views\\eventsthuanvcts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|c:\\prn222\\su26_prn222_se1936_asm01_se182422_thuanvct\\sealhkthon.webmvcapp.thuanvct\\hubs\\eventhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACD0940-C6E0-4893-B5D3-7B4B9BD35E73}|sealHkthon.WebMVCApp.ThuanVCT\\sealHkthon.WebMVCApp.ThuanVCT.csproj|solutionrelative:sealhkthon.webmvcapp.thuanvct\\hubs\\eventhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1858,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +78,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "EventsThuanVctSerrvice.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Services.ThuanVCT\\EventsThuanVctSerrvice.cs",
+              "RelativeDocumentMoniker": "sealHkthon.Services.ThuanVCT\\EventsThuanVctSerrvice.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Services.ThuanVCT\\EventsThuanVctSerrvice.cs",
+              "RelativeToolTip": "sealHkthon.Services.ThuanVCT\\EventsThuanVctSerrvice.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T01:02:58.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoundsThuanVct.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Entities.ThuanVCT\\Models\\RoundsThuanVct.cs",
+              "RelativeDocumentMoniker": "sealHkthon.Entities.ThuanVCT\\Models\\RoundsThuanVct.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Entities.ThuanVCT\\Models\\RoundsThuanVct.cs",
+              "RelativeToolTip": "sealHkthon.Entities.ThuanVCT\\Models\\RoundsThuanVct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T01:01:54.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Index.cshtml",
+              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Index.cshtml",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Index.cshtml",
+              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-04T01:13:31.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EventsThuanVct.cs",
               "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.Entities.ThuanVCT\\Models\\EventsThuanVct.cs",
               "RelativeDocumentMoniker": "sealHkthon.Entities.ThuanVCT\\Models\\EventsThuanVct.cs",
@@ -75,46 +130,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Edit.cshtml",
-              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Edit.cshtml",
-              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Edit.cshtml",
-              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Edit.cshtml",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAgwNQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-08T00:34:32.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Details.cshtml",
               "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Details.cshtml",
               "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Details.cshtml",
               "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Details.cshtml",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAgwMoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAtwIQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-08T00:32:19.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Index.cshtml",
-              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Index.cshtml",
-              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Index.cshtml",
-              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Index.cshtml",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJoAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "EventHub.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Hubs\\EventHub.cs",
+              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Hubs\\EventHub.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Hubs\\EventHub.cs",
+              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Hubs\\EventHub.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAhwBMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T00:43:06.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Create.cshtml",
+              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Create.cshtml",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Create.cshtml",
+              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-04T01:13:31.844Z",
+              "WhenOpened": "2026-06-04T00:49:13.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "EventsThuanVctsController.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Controllers\\EventsThuanVctsController.cs",
+              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Controllers\\EventsThuanVctsController.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Controllers\\EventsThuanVctsController.cs",
+              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Controllers\\EventsThuanVctsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T00:38:37.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Edit.cshtml",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Edit.cshtml",
+              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Edit.cshtml",
+              "ViewState": "AgIAALEAAAAAAAAAAAAgwMQAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-08T00:34:32.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T00:37:01.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Delete.cshtml",
               "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Delete.cshtml",
@@ -123,32 +216,6 @@
               "ViewState": "AgIAAHoAAAAAAAAAAAAAAK4AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-04T00:49:57.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EventHub.cs",
-              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Hubs\\EventHub.cs",
-              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Hubs\\EventHub.cs",
-              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Hubs\\EventHub.cs",
-              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Hubs\\EventHub.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAhwBMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T00:43:06.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Create.cshtml",
-              "RelativeDocumentMoniker": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Create.cshtml",
-              "ToolTip": "C:\\PRN222\\SU26_PRN222_SE1936_ASM01_SE182422_THUANVCT\\sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Create.cshtml",
-              "RelativeToolTip": "sealHkthon.WebMVCApp.ThuanVCT\\Views\\EventsThuanVcts\\Create.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-04T00:49:13.554Z",
               "EditorCaption": ""
             }
           ]

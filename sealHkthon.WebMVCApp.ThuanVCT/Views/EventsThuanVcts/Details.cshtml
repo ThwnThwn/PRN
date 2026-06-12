@@ -10,7 +10,7 @@
         border-radius: 16px;
         box-shadow: 0 4px 24px rgba(0,0,0,0.08);
         padding: 2rem 2.5rem;
-        max-width: 680px;
+        max-width: 780px;
         margin: 2rem auto;
     }
     .detail-card .card-header-section {
@@ -45,7 +45,7 @@
     }
     .field-row:last-child { border-bottom: none; }
     .field-label {
-        width: 130px; flex-shrink: 0;
+        width: 140px; flex-shrink: 0;
         font-size: 0.8rem; font-weight: 600;
         color: #888; text-transform: uppercase;
         letter-spacing: 0.04em; padding-top: 2px;
@@ -66,6 +66,36 @@
     .badge-draft     { background: #f0f0f0; color: #666; }
     .badge-active    { background: #d1ecf1; color: #0c5460; }
     .badge-inactive  { background: #f8d7da; color: #721c24; }
+    .rounds-section {
+        background: #f8f9ff;
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin-top: 1.5rem;
+        border: 1px solid #e8ecff;
+    }
+    .rounds-section h6 {
+        font-size: 0.8rem; font-weight: 700;
+        color: #3b6ef8; text-transform: uppercase;
+        letter-spacing: 0.05em; margin-bottom: 0.75rem;
+    }
+    .round-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.6rem 0;
+        border-bottom: 1px solid #eef0ff;
+    }
+    .round-item:last-child { border-bottom: none; }
+    .round-badge {
+        width: 28px; height: 28px;
+        background: linear-gradient(135deg, #3b6ef8, #60a5fa);
+        border-radius: 50%;
+        display: flex; align-items: center; justify-content: center;
+        color: white; font-size: 0.7rem; font-weight: 700;
+        flex-shrink: 0;
+    }
+    .round-name { font-weight: 600; font-size: 0.93rem; color: #1a1a2e; }
+    .round-meta { font-size: 0.78rem; color: #888; }
     .action-bar {
         display: flex; gap: 0.75rem;
         margin-top: 1.5rem; padding-top: 1rem;
@@ -89,7 +119,6 @@
         transition: background 0.2s;
     }
     .btn-back:hover { background: #e0e0e0; color: #333; }
-    /* SignalR live badge */
     .live-badge {
         display: inline-flex; align-items: center; gap: 5px;
         font-size: 0.72rem; background: #eef2ff; color: #3b6ef8;
@@ -107,48 +136,64 @@
 </style>
 
 <div id="EventThuanVctid" class="detail-card">
+    @* Header *@
     <div class="card-header-section">
         <div class="card-icon"><i class="bi bi-calendar-event"></i></div>
         <div>
             <h2>Event Details</h2>
-            <p class="subtitle">EventsThuanVct &nbsp;·&nbsp; ID: @Model.EventThuanVctid</p>
+            <p class="subtitle">EventsThuanVct &nbsp;·&nbsp; ID: <strong>#@Model.EventThuanVctid</strong></p>
         </div>
         <div class="ms-auto">
             <span class="live-badge"><span class="live-dot"></span>Live</span>
         </div>
     </div>
 
+    @* Fields *@
+    <div class="field-row">
+        <span class="field-label"><i class="bi bi-hash me-1"></i>Event ID</span>
+        <span class="field-value">
+            <span class="badge bg-secondary bg-opacity-10 text-secondary border">#@Model.EventThuanVctid</span>
+        </span>
+    </div>
+
     <div class="field-row">
         <span class="field-label"><i class="bi bi-tag me-1"></i>Event Name</span>
-        @* <dd class="col-sm-10"> *@   @* FIX: thêm id để getElementById hoạt động *@
-        <span id="EventName" class="field-value">@Html.DisplayFor(model => model.EventName)</span>
+        <span id="EventName" class="field-value fw-bold">@Html.DisplayFor(model => model.EventName)</span>
     </div>
+
     <div class="field-row">
         <span class="field-label"><i class="bi bi-text-paragraph me-1"></i>Description</span>
-        @* <dd class="col-sm-10"> *@
-        <span id="Description" class="field-value">@Html.DisplayFor(model => model.Description)</span>
+        <span id="Description" class="field-value" style="white-space: pre-wrap;">@Html.DisplayFor(model => model.Description)</span>
     </div>
+
     <div class="field-row">
         <span class="field-label"><i class="bi bi-circle-half me-1"></i>Status</span>
-        @* <dd class="col-sm-10"> *@
         <span id="Status" class="field-value">
             @if (Model.Status == 1)
             {
-                <span class="badge-status badge-published">Published</span>
+                <span class="badge-status badge-published"><i class="bi bi-check2-circle me-1"></i>Published</span>
             }
             else
             {
-                <span class="badge-status badge-draft">Draft (@Model.Status)</span>
+                <span class="badge-status badge-draft"><i class="bi bi-pencil me-1"></i>Draft</span>
             }
         </span>
     </div>
+
     <div class="field-row">
         <span class="field-label"><i class="bi bi-calendar3 me-1"></i>Publish Date</span>
-        @* <dd class="col-sm-10"> *@
         <span id="PublishDate" class="field-value">
-            @(Model.PublishDate.HasValue ? Model.PublishDate.Value.ToString("MMM dd, yyyy HH:mm") : "N/A")
+            @if (Model.PublishDate.HasValue)
+            {
+                @Model.PublishDate.Value.ToString("MMM dd, yyyy - HH:mm")
+            }
+            else
+            {
+                <span class="text-muted">N/A</span>
+            }
         </span>
     </div>
+
     <div class="field-row">
         <span class="field-label"><i class="bi bi-toggle-on me-1"></i>Is Active</span>
         <span class="field-value">
@@ -163,9 +208,57 @@
         </span>
     </div>
 
+    <div class="field-row">
+        <span class="field-label"><i class="bi bi-diagram-3 me-1"></i>Total Rounds</span>
+        <span class="field-value">
+            <span class="badge bg-primary bg-opacity-10 text-primary border">
+                @(Model.RoundsThuanVcts?.Count ?? 0) round(s)
+            </span>
+        </span>
+    </div>
+
+    @* Rounds Detail Section *@
+    @if (Model.RoundsThuanVcts != null && Model.RoundsThuanVcts.Any())
+    {
+        <div class="rounds-section">
+            <h6><i class="bi bi-layers me-1"></i>Rounds Detail (FK)</h6>
+            @foreach (var r in Model.RoundsThuanVcts.OrderBy(x => x.SortOrder))
+            {
+                <div class="round-item">
+                    <div class="round-badge">@r.SortOrder</div>
+                    <div class="flex-grow-1">
+                        <div class="round-name">@r.RoundName</div>
+                        <div class="round-meta d-flex flex-wrap gap-3 mt-1">
+                            <span><i class="bi bi-clock me-1"></i>Deadline: @r.Deadline.ToString("MMM dd, yyyy HH:mm")</span>
+                            @if (r.PromotionRule.HasValue)
+                            {
+                                <span><i class="bi bi-people me-1"></i>Promote: @r.PromotionRule slots</span>
+                            }
+                            @if (r.Price.HasValue)
+                            {
+                                <span><i class="bi bi-gift me-1"></i>Prize: @r.Price.Value.ToString("N0") VND</span>
+                            }
+                            <span class="text-muted">ID: #@r.RoundThuanVctid</span>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="rounds-section text-center text-muted py-3">
+            <i class="bi bi-layers fs-3 d-block mb-1"></i>
+            No rounds linked to this event.
+        </div>
+    }
+
     <div class="action-bar">
         <a asp-action="Edit" asp-route-id="@Model?.EventThuanVctid" class="btn-edit">
             <i class="bi bi-pencil-square"></i> Edit
+        </a>
+        <a asp-action="Delete" asp-route-id="@Model?.EventThuanVctid" class="btn-back" style="background:#fde8e8;color:#c0392b;">
+            <i class="bi bi-trash"></i> Delete
         </a>
         <a asp-action="Index" class="btn-back">
             <i class="bi bi-arrow-left"></i> Back to List
@@ -175,8 +268,6 @@
 
 <script src="~/js/signalr/dist/browser/signalr.min.js"></script>
 <script>
-    // "use strict";
-
     const connection = new signalR.HubConnectionBuilder()
         .withUrl("/eventHub")
         .build();
@@ -184,27 +275,23 @@
     connection.start().catch(err => console.error(err.toString()));
 
     connection.on("Reciver_EventDeleted", function(eventId) {
-		document.getElementById("EventThuanVctid").innerHTML = "This event has been deleted.";
-		document.getElementById("EventThuanVctid").style.color = "red";
-		document.getElementById("EventThuanVctid").style.backgroundColor = "black";
+        document.getElementById("EventThuanVctid").innerHTML = `
+            <div class="text-center py-5">
+                <i class="bi bi-exclamation-triangle-fill text-danger fs-1 d-block mb-2"></i>
+                <h5 class="text-danger">This event has been deleted.</h5>
+                <a href="/EventsThuanVcts" class="btn btn-outline-secondary mt-2">Back to List</a>
+            </div>`;
     });
 
-
     connection.on("Reciver_EventEdited", function (item) {
-        // ❌ Cũ (sai - item.EventName là undefined vì SignalR serialize C# → camelCase)
-        // document.getElementById("EventName").innerHTML = item.EventName;
-        // document.getElementById("EventName").style.color = "blue";
-        // document.getElementById("EventName").style.backgroundColor = "yellow";
-        // document.getElementById("Description").innerHTML = item.Description;
-        // document.getElementById("Status").innerHTML = item.Status;
-        // document.getElementById("PublishDate").innerHTML = new Date(item.PublishDate).toLocaleString();
-
-        // ✅ Mới (đúng - dùng camelCase)
-		document.getElementById("EventName").innerHTML = item.eventName;
-		document.getElementById("EventName").style.color = "blue";
-		document.getElementById("EventName").style.backgroundColor = "yellow";
+        document.getElementById("EventName").innerHTML = item.eventName;
+        document.getElementById("EventName").style.backgroundColor = "#fff3cd";
         document.getElementById("Description").innerHTML = item.description;
-        document.getElementById("Status").innerHTML = item.status;
-        document.getElementById("PublishDate").innerHTML = new Date(item.publishDate).toLocaleString();
+        document.getElementById("Status").innerHTML = item.status == 1
+            ? '<span class="badge-status badge-published"><i class="bi bi-check2-circle me-1"></i>Published</span>'
+            : '<span class="badge-status badge-draft"><i class="bi bi-pencil me-1"></i>Draft</span>';
+        document.getElementById("PublishDate").innerHTML = item.publishDate
+            ? new Date(item.publishDate).toLocaleString('vi-VN')
+            : 'N/A';
     });
 </script>

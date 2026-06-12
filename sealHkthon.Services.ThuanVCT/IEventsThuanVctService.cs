@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,7 @@ namespace sealHkthon.Services.ThuanVCT
         Task<List<Entities.ThuanVCT.Models.EventsThuanVct>> GetAllAsync();
         Task<Entities.ThuanVCT.Models.EventsThuanVct> GetByIdAsync(int id);
         Task<List<Entities.ThuanVCT.Models.EventsThuanVct>> SearchAsync(string eventName, string description);
+        Task<List<Entities.ThuanVCT.Models.EventsThuanVct>> SearchAsync(string name, string round, int status);
 
         ///Mutation Methods
         Task<int> CreateAsync(Entities.ThuanVCT.Models.EventsThuanVct events);

@@ -17,13 +17,40 @@
     </div>
 </div>
 
+<form asp-action="Index" method="get" class="row g-3 align-items-end mb-4">
+    <div class="col-md-3">
+        <label for="Name" class="form-label fw-semibold">Name</label>
+        <input type="text" id="Name" name="Name" value="@Context.Request.Query["Name"]" class="form-control" placeholder="Search by name..." />
+    </div>
+    <div class="col-md-3">
+        <label for="Status" class="form-label fw-semibold">Status</label>
+        <select id="Status" name="Status" class="form-select">
+            <option value="0" selected="@(Context.Request.Query["Status"] == "0" || !Context.Request.Query.ContainsKey("Status"))">-- All --</option>
+            <option value="1" selected="@(Context.Request.Query["Status"] == "1")">Published</option>
+            <option value="2" selected="@(Context.Request.Query["Status"] == "2")">Draft</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label for="Round" class="form-label fw-semibold">Round</label>
+        <input type="text" id="Round" name="Round" value="@Context.Request.Query["Round"]" class="form-control" placeholder="Search by round..." />
+    </div>
+    <div class="col-md-3">
+        <button type="submit" class="btn btn-primary w-100 d-flex align-items-center justify-content-center gap-2">
+            <i class="bi bi-search"></i>
+            <span>Search</span>
+        </button>
+    </div>
+</form>
+
 <div class="clean-table-container">
     <div class="table-responsive">
         <table id="myTable" class="table table-clean table-hover mb-0">
             <thead>
                 <tr>
-                    <th style="width: 25%;">Event Name</th>
-                    <th style="width: 30%;">Description</th>
+                    <th style="width: 5%;">#ID</th>
+                    <th style="width: 20%;">Event Name</th>
+                    <th style="width: 20%;">Description</th>
+                    <th>Rounds (FK)</th>
                     <th>Status</th>
                     <th>Publish Date</th>
                     <th class="text-center">Active</th>
@@ -34,7 +61,7 @@
                 @if (!Model.Any())
                 {
                     <tr>
-                        <td colspan="6" class="text-center py-5 text-muted">
+                        <td colspan="8" class="text-center py-5 text-muted">
                             <i class="bi bi-calendar-x fs-1 d-block mb-2 text-light-muted"></i>
                             No events found. Start by creating a new one.
                         </td>
@@ -42,13 +69,29 @@
                 }
                 @foreach (var item in Model) {
                 <tr id="@item.EventThuanVctid">
+                    <td class="align-middle text-muted small">
+                        <span class="badge bg-secondary bg-opacity-10 text-secondary border">#@item.EventThuanVctid</span>
+                    </td>
                     <td class="fw-medium text-dark align-middle">
                         @item.EventName
                     </td>
                     <td class="align-middle">
-                        <div style="max-width: 300px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="@item.Description">
+                        <div style="max-width: 220px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="@item.Description">
                             @item.Description
                         </div>
+                    </td>
+                    <td class="align-middle">
+                        @if (item.RoundsThuanVcts != null && item.RoundsThuanVcts.Any())
+                        {
+                            foreach (var r in item.RoundsThuanVcts)
+                            {
+                                <span class="badge bg-primary bg-opacity-10 text-primary border me-1">@r.RoundName</span>
+                            }
+                        }
+                        else
+                        {
+                            <span class="text-muted small">—</span>
+                        }
                     </td>
                     <td class="align-middle">
                         @if (item.Status == 1)

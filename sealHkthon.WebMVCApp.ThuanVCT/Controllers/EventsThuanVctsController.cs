@@ -30,9 +30,10 @@ namespace sealHkthon.WebMVCApp.ThuanVCT.Controllers
         }
         // GET: EventsThuanVcts
         [Authorize(Roles = "1,2")]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string Name, int Status, string Round)
         {
-            var events = await _eventService.GetAllAsync();
+            //var events = await _eventService.GetAllAsync();
+            var events = await _eventService.SearchAsync(Name, Round, Status);
             return View(events);
         }
 

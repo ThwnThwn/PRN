@@ -1,82 +1,88 @@
 @model sealHkthon.Entities.ThuanVCT.Models.EventsThuanVct
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create Event";
 }
 
-<h1>Create</h1>
+<div class="d-flex justify-content-between align-items-center mb-4 mt-3">
+    <div>
+        <h2 class="fw-bold text-dark mb-1">Create New Event</h2>
+        <p class="text-secondary mb-0">Fill in the details to add a new hackathon event.</p>
+    </div>
+    <a asp-action="Index" class="btn btn-outline-secondary d-flex align-items-center gap-2">
+        <i class="bi bi-arrow-left"></i>
+        <span>Back to List</span>
+    </a>
+</div>
 
-<h4>EventsThuanVct</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="EventName" class="control-label"></label>
-                <input asp-for="EventName" class="form-control" />
-                <span asp-validation-for="EventName" class="text-danger"></span>
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <div class="card shadow-sm border-0 rounded-3">
+            <div class="card-body p-4">
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="EventName" class="form-label fw-semibold"></label>
+                        <input asp-for="EventName" class="form-control" placeholder="Enter event name..." />
+                        <span asp-validation-for="EventName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label fw-semibold"></label>
+                        <textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter description..."></textarea>
+                        <span asp-validation-for="Description" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Status" class="form-label fw-semibold">Status</label>
+                        <select asp-for="Status" class="form-select">
+                            <option value="0">Draft</option>
+                            <option value="1">Published</option>
+                        </select>
+                        <span asp-validation-for="Status" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="PublishDate" class="form-label fw-semibold"></label>
+                        <input asp-for="PublishDate" type="datetime-local" class="form-control" />
+                        <span asp-validation-for="PublishDate" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Rounds (FK)</label>
+                        <select name="RoundThuanVctid" class="form-select" asp-items="@(ViewData["RoundThuanVctid"] as SelectList)">
+                            <option value="">-- No Round (create later) --</option>
+                        </select>
+                        <div class="form-text text-muted">Chọn round liên kết với event này (nếu có).</div>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input asp-for="IsActive" class="form-check-input" type="checkbox" checked />
+                        <label asp-for="IsActive" class="form-check-label fw-semibold">Is Active</label>
+                    </div>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button type="submit" class="btn btn-primary d-flex align-items-center gap-2">
+                            <i class="bi bi-floppy"></i>
+                            <span>Create</span>
+                        </button>
+                        <button type="button" id="btnHubCreate" class="btn btn-success d-flex align-items-center gap-2">
+                            <i class="bi bi-broadcast"></i>
+                            <span>Create via SignalR</span>
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PublishDate" class="control-label"></label>
-                <input asp-for="PublishDate" class="form-control" />
-                <span asp-validation-for="PublishDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-                <input type="button" id="btnHubCreate" value="Create via SignalR" class="btn btn-success" /> 
-            </div>
-        </form>
+        </div>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-
-
-@* @section Scipts { *@
-@* 	<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.10/signalr.min.js"></script> *@
-@* 	<script> *@
-@* 		const connection = new signalR.HubConnectionBuilder() *@
-@* 			.withUrl("/eventHub") *@
-@* 			.build(); *@
-@* 		connection.on("ReceiveEventUpdate", function () { *@
-@* 			// Reload the page when an event is created/edited/deleted *@
-@* 			location.reload(); *@
-@* 		}); *@
-@* 		connection.start().catch(function (err) { *@
-@* 			return console.error(err.toString()); *@
-@* 		}); *@
-@* 		document.getElementById("btnHubCreate").addEventListener("click", function (event) { *@
-@* 			event.preventDefault(); *@
-@* 			const eventName = document.getElementById("EventName").value; *@
-@* 			const description = document.getElementById("Description").value; *@
-@* 			const status = document.getElementById("Status").value; *@
-@* 			const publishDate = document.getElementById("PublishDate").value; *@
-@* 			connection.invoke("HubCreateEvent", eventName, description, status, publishDate).catch(function (err) { *@
-@* 				return console.error(err.toString()); *@
-@* 			}); *@
-@* 		}); *@
-@* 	</script> *@
-@* } *@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
     <script src="~/js/signalr/dist/browser/signalr.min.js"></script>
     <script>
-        //VuLNS | Create connection to connect SignalR hub and invoke create method on button click
         var connection = new signalR.HubConnectionBuilder().withUrl("/eventHub").build();
         connection.start().then(function () {
             console.log("SignalR Connected.");
@@ -86,10 +92,10 @@
 
         document.getElementById("btnHubCreate").addEventListener("click", function (event) {
             event.preventDefault();
-            const eventName = document.getElementById("EventName").value; 
- 			const description = document.getElementById("Description").value; 
- 			const status = document.getElementById("Status").value; 
- 			const publishDate = document.getElementById("PublishDate").value;
+            const eventName = document.getElementById("EventName").value;
+            const description = document.getElementById("Description").value;
+            const status = document.getElementById("Status").value;
+            const publishDate = document.getElementById("PublishDate").value;
 
             const newEvent = {
                 EventName: eventName,
@@ -106,6 +112,5 @@
                     return console.error(err.toString());
                 });
         });
-                
     </script>
 }

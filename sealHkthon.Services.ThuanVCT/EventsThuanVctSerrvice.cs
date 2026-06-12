@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,6 +53,19 @@ namespace sealHkthon.Services.ThuanVCT
                 // Log the exception or handle it as needed
                 Console.WriteLine($"Error searching events with name '{eventName}' and description '{description}': {ex.Message}");
                 throw new ApplicationException($"An error occurred while searching events with name '{eventName}' and description '{description}': " + ex.Message);
+            }
+        }
+
+        public async Task<List<Entities.ThuanVCT.Models.EventsThuanVct>> SearchAsync(string name, string round, int status)
+        {
+            try
+            {
+                return await _repository.SearchAsync(name, round, status);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error searching events: {ex.Message}");
+                throw new ApplicationException("An error occurred while searching events: " + ex.Message);
             }
         }
 
